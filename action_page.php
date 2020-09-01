@@ -1,10 +1,13 @@
 <html>  
 <body>
 
-<form action="welcome.php" method="post">
-Name: <input type="text" name="name"><br>
-<input type="submit">
-</form>
+  <form method="post">
+    	<label for="username">Username</label>
+    	<input type="text" name="username" id="username">
+    <label for="passowrd">Passowrd</label>
+    	<input type="passowrd" name="username" id="username">
+    	<input type="submit" name="submit" value="Submit">
+    </form>
 
 </body>
 </html>
